@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>backend</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryCsharp.Controllers.SaludosController.ObtenerSaludo(System.String)">
+            <summary>
+            Obtiene un saludo personalizado.
+            </summary>
+            <param name="nombre">El nombre de la persona a saludar. Si no se proporciona, se usa "Mundo" como valor predeterminado.</param>
+            <returns>Un saludo que dice "Hola {nombre}".</returns>
+        </member>
+    </members>
+</doc>
